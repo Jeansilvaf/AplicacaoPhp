@@ -8,7 +8,9 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     $host = 'localhost'; 
     $dbUsername = 'seu_usuario'; 
     $dbPassword = 'sua_senha'; 
-    $dbName = 'seu_banco_de_dados'; //test
+    $dbName = 'seu_banco_de_dados'; 
+
+    
 
     $mysqli = new mysqli($host, $dbUsername, $dbPassword, $dbName);
 
